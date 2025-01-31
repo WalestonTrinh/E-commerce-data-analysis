@@ -3,6 +3,8 @@
 Introduction du Projet : Analyse de Données E-Commerce
 Contexte du Projet
 
+Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles, segmenter les clients, et évaluer l'impact des réductions. Bien que les résultats ne montrent pas d'insights notables, ce projet démontre ma capacité à manipuler des données, à créer des visualisations, et à communiquer mes résultats de manière claire.
+
 Ce projet consiste en une analyse approfondie d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en analyse de données, en nettoyage de données, en visualisation, et en communication efficace des insights.
 
 Lien Kaggle : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
@@ -82,17 +84,48 @@ Compétences Déployées
 
 ## Nettoyage des Données et mise en place 
 
+Le nettoyage des données est une étape cruciale pour garantir la qualité des analyses. Cette section décrit les problèmes identifiés et les étapes pour les résoudre.
+
+En premier lieu j'ai remarqué que les dates n'étaient pas au bon format pour pouvoir les utiliser correctement dans SQL.
+Il faut modifier du format '12/11/2024' au format '2024-12-11'
+
+![image](https://github.com/user-attachments/assets/5e124cfb-82a8-44d6-9b0c-553c3aa820ef)
+
+
 En premier lieu, vérifier qu'il n y a pas de valeur nulle dans les colonnes importantes : 
+
 ![image](https://github.com/user-attachments/assets/7b34b816-c17c-400d-876f-751aaaaf4316)
+
 Il n'y a aucune valeur nulle.
 
 Ensuite, il faudrait également vérifier qu'il n y a pas de lignes en dupliqué. Si il y en a, il faut les supprimer.
+
 ![image](https://github.com/user-attachments/assets/ac7853d6-0a07-4e88-99e1-e6340a37c3ab)
+
 Il n'y a aucune valeur en doublon.
 
 Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données.
 Nous avons de la chance, la base de donnée était déjà très propre, il n y a pas besoin de faire de calculs complexes ou de jointures.
-Nous pouvons maintenant passer à PowerBI Pour l'analyse visuelle et interactive des données.
+Nous pouvons maintenant passer à l'analyse des données.
+
+
+## Analyser les tendances
+
+ Cette section présente les analyses effectuées sur les données nettoyées. Elle met en avant les requêtes SQL utilisées et les insights obtenus.
+
+ Commençons par quelques analyses simples afin d'identifier :
+ 
+- Les ventes mensuelles et trimestrielles.
+- Identification des périodes de forte et faible activité.
+
+Voici le code SQL pour analyser la sommes des ventes trié par mois :
+![image](https://github.com/user-attachments/assets/9bba0e78-3363-4d0b-82db-5e6e1ae6dfea)
+
+Le résulat obtenu :
+
+![image](https://github.com/user-attachments/assets/b21476f5-2fd5-4e9c-9834-0d248e731bcc)
+
+
 
 
 Résultats et Insights
@@ -104,6 +137,8 @@ Résultats et Insights
     Performance des Produits : Identification des produits et catégories les plus performants.
 
     Impact des Réductions : Analyse de l'effet des réductions sur le volume des ventes et les revenus.
+
+    
 
 
 
