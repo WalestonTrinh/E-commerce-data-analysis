@@ -3,9 +3,9 @@
 Introduction du Projet : Analyse de Données E-Commerce
 Contexte du Projet
 
-Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles, segmenter les clients, et évaluer l'impact des réductions. Bien que les résultats ne montrent pas d'insights notables, ce projet démontre ma capacité à manipuler des données, à créer des visualisations, et à communiquer mes résultats de manière claire.
+Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles, segmenter les clients, et évaluer l'impact des réductions. Bien que les résultats ne montrent pas d'insights notables, ce projet démontre ma capacité à manipuler des données, et à communiquer mes résultats de manière claire.
 
-Ce projet consiste en une analyse approfondie d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en analyse de données, en nettoyage de données, en visualisation, et en communication efficace des insights.
+Ce projet consiste en une analyse légère d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en SQL notamment en analyse de données et en nettoyage de données sur SQL.
 
 Lien Kaggle : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
 
@@ -105,9 +105,6 @@ Ensuite, il faudrait également vérifier qu'il n y a pas de lignes en dupliqué
 Il n'y a aucune valeur en doublon.
 
 Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données.
-Nous avons de la chance, la base de donnée était déjà très propre, il n y a pas besoin de faire de calculs complexes ou de jointures.
-Nous pouvons maintenant passer à l'analyse des données.
-
 
 ## Analyser les tendances
 
