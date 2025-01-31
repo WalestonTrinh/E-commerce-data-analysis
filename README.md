@@ -25,23 +25,23 @@ Le dataset contient des informations sur les achats des clients, telles que :
 
 Objectifs du Projet
 
-    Nettoyer et préparer les données : Identifier et gérer les valeurs manquantes, les doublons, et les incohérences.
+ Nettoyer et préparer les données : Identifier et gérer les valeurs manquantes, les doublons, et les incohérences.
 
-    Analyser les tendances : Explorer les tendances des ventes, les performances des produits, et le comportement des clients.
+Analyser les tendances : Explorer les tendances des ventes, les performances des produits, et le comportement des clients.
 
-    Visualiser les insights : Créer des tableaux de bord interactifs pour communiquer les résultats de manière claire et visuelle.
+Visualiser les insights : Créer des tableaux de bord interactifs pour communiquer les résultats de manière claire et visuelle.
 
-    Fournir des recommandations : Proposer des actions concrètes pour améliorer les performances de l'entreprise.
+Fournir des recommandations : Proposer des actions concrètes pour améliorer les performances de l'entreprise.
 
 Compétences Déployées
 
-    SQL : Pour interroger la base de données, nettoyer les données, et extraire des insights.
+SQL : Pour interroger la base de données, nettoyer les données, et extraire des insights.
 
-    Power BI : Pour créer des visualisations interactives et des tableaux de bord.
+ Power BI : Pour créer des visualisations interactives et des tableaux de bord.
 
-    Excel : Pour des analyses complémentaires et des calculs simples.
+Excel : Pour des analyses complémentaires et des calculs simples.
 
-    Communication : Pour présenter les résultats de manière claire et convaincante.
+Communication : Pour présenter les résultats de manière claire et convaincante.
 
 Étapes du Projet
 
