@@ -5,6 +5,8 @@ Contexte du Projet
 
 Ce projet consiste en une analyse approfondie d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en analyse de données, en nettoyage de données, en visualisation, et en communication efficace des insights.
 
+Lien Kaggle : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
+
 Le dataset contient des informations sur les achats des clients, telles que :
 
     User_ID : Identifiant unique de l'utilisateur.
@@ -75,15 +77,7 @@ Compétences Déployées
 
         Suggestions pour améliorer l'inventaire en fonction des performances des produits.
 
-Résultats et Insights
 
-    Tendances des Ventes : Identification des périodes de forte et faible activité.
-
-    Segmentation des Clients : Détection des clients les plus rentables et des opportunités de fidélisation.
-
-    Performance des Produits : Identification des produits et catégories les plus performants.
-
-    Impact des Réductions : Analyse de l'effet des réductions sur le volume des ventes et les revenus.
 
 
 ## Nettoyage des Données et mise en place 
@@ -100,4 +94,16 @@ Nous en avons fini avec la préparations de données et la gestion de potentiell
 Nous avons de la chance, la base de donnée était déjà très propre, il n y a pas besoin de faire de calculs complexes ou de jointures.
 Nous pouvons maintenant passer à PowerBI Pour l'analyse visuelle et interactive des données.
 
-https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
+
+Résultats et Insights
+
+    Tendances des Ventes : Identification des périodes de forte et faible activité.
+
+    Segmentation des Clients : Détection des clients les plus rentables et des opportunités de fidélisation.
+
+    Performance des Produits : Identification des produits et catégories les plus performants.
+
+    Impact des Réductions : Analyse de l'effet des réductions sur le volume des ventes et les revenus.
+
+
+
