@@ -1,6 +1,6 @@
 # E-commerce-data-analysis
 
-Introduction du Projet : Analyse de Données E-Commerce
+Introduction du Projet : Performance E-Commerce
 Contexte du Projet
 
 Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles, segmenter les clients, et évaluer l'impact des réductions. Bien que les résultats ne montrent pas d'insights notables, ce projet démontre ma capacité à manipuler des données, et à communiquer mes résultats de manière claire.
@@ -106,23 +106,61 @@ Ensuite, j'ai procédé à la détection des éventuelles lignes en double. La p
 
 ![image](https://github.com/user-attachments/assets/ac7853d6-0a07-4e88-99e1-e6340a37c3ab)
 
-Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données.
+Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. J'en ai également profité pour renommer certaines colonnes afin de facilier mon travail par la suite (eg. colonne price et colonne discount)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Analyser les tendances
 
  Cette section présente les analyses effectuées sur les données nettoyées. Elle met en avant les requêtes SQL utilisées et les insights obtenus.
 
  Commençons par quelques analyses simples afin d'identifier :
+
+
+
+ 
  
  ## Les périodes de forte et faible activité :
 
-Voici le code SQL pour analyser la sommes des ventes trié par mois :
+Pour comprendre les tendances des ventes au fil du temps, j'ai analysé les revenus mensuels à l'aide de la requête SQL suivante :
 
 ![image](https://github.com/user-attachments/assets/9bba0e78-3363-4d0b-82db-5e6e1ae6dfea)
 
-Le résulat obtenu :
+Le résultat obtenu :
 
 ![image](https://github.com/user-attachments/assets/b21476f5-2fd5-4e9c-9834-0d248e731bcc)
+
+
+    Les revenus mensuels varient entre 51,915.08 (novembre) et 76,034.51 (octobre).
+
+    Le mois d'octobre est le plus performant, tandis que novembre est le moins performant.
+
+    Les revenus restent relativement stables entre 68,000 et 74,000 pour la plupart des mois, à l'exception de novembre.
+
+
+    Pour mieux comprendre ces tendances, j'ai créé un graphique en ligne dans Power BI, montrant l'évolution des revenus mensuels.
+
+Graphique :
+
+
+Analyse de la Visualisation :
+
+    Le graphique confirme les insights de l'analyse SQL :
+
+        Un pic clair est visible en octobre, avec un revenu de 76,034.51.
+
+        Une baisse significative est observée en novembre, avec un revenu de seulement 51,915.08.
+
+    Les mois de mars à août montrent une performance stable, avec des revenus compris entre 64,000 et 74,000.
 
 
 
