@@ -106,7 +106,7 @@ Ensuite, j'ai procédé à la détection des éventuelles lignes en double. La p
 
 ![image](https://github.com/user-attachments/assets/ac7853d6-0a07-4e88-99e1-e6340a37c3ab)
 
-Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. J'en ai également profité pour renommer certaines colonnes afin de facilier mon travail par la suite (eg. colonne price et colonne discount)
+Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. J'en ai également profité pour renommer certaines colonnes afin de faciliter mon travail par la suite (eg. colonne price et colonne discount)
 
 
 
