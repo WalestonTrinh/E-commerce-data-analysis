@@ -249,9 +249,10 @@ J'ai donc réalisé un graphique représentant le nombre de commandes (à gauche
 ![image](https://github.com/user-attachments/assets/6fe9d6bf-2312-4273-82f4-dca9ea146b38)
 
 
-Voici également un tableau claire et efficace pour accélérer la prise de décision : 
+Voici également un tableau claire et efficace réalisé sur Excel pour accélérer la prise de décision : 
 
-![image](https://github.com/user-attachments/assets/a0f47982-79ed-47fd-bd86-cc5677786b5f)
+
+![image](https://github.com/user-attachments/assets/fd0f8828-563e-4fe1-b9bf-26d0eef207ea)
 
 
 📌 Justification des Recommandations
