@@ -118,7 +118,7 @@ Le dataset contient des informations sur les achats des clients, telles que :
 ![image](https://github.com/user-attachments/assets/7b34b816-c17c-400d-876f-751aaaaf4316)
 
 
-3️⃣ Détection et Suppression des Doublons
+- 3️⃣ Détection et Suppression des Doublons
 
 📌 Problème : La présence de lignes en double peut gonfler artificiellement le volume des ventes et biaiser les résultats.
 ✅ Solution : Suppression des doublons en se basant sur User_ID, Product_ID, Purchase_Date pour ne conserver que les achats uniques.
@@ -127,12 +127,14 @@ Le dataset contient des informations sur les achats des clients, telles que :
 
 
 
-4️⃣ Renommage des Colonnes pour plus de Clarté
+- 4️⃣ Renommage des Colonnes pour plus de Clarté
 
 Pour simplifier l’analyse, certaines colonnes ont été renommées :
 
    Final_Price(Rs.) → Final_Price
+   
    Discount (%) → Discount
+   
    Price (Rs.) → Price
 
 📌 Pourquoi ? Ces modifications permettent d’éviter toute ambiguïté et facilitent l’écriture des requêtes SQL.
@@ -150,20 +152,24 @@ Nous en avons fini avec la préparations de données et la gestion de potentiell
 
 
 
-## Analyser les tendances
+## 📊 Analyse Exploratoire des Données 
 
- Cette section présente les analyses effectuées sur les données nettoyées. Elle met en avant les requêtes SQL utilisées et les insights obtenus.
- 
-📊 Analyse Exploratoire des Données (EDA)
+Une fois les données nettoyées, l’analyse a commencé par l’exploration de plusieurs facteurs avant de se concentrer sur l’impact des promotions.
 
-Avant de me concentrer sur l’impact des promotions, j’ai exploré plusieurs facteurs :
+🔹 Facteurs explorés initialement :
+
+1️⃣ Tendances des ventes mensuelles 📆 → Résultat : Pas de saisonnalité marquée.
+
+2️⃣ Méthodes de paiement les plus utilisées 💳 → Résultat : Répartition stable entre les différentes méthodes.
+
+3️⃣ Impact des promotions sur le chiffre d’affaires 💰 → Résultat clé : Réduction >20 % = Moins de commandes & moins de revenus.
+
+Cette analyse a permis de valider l’intérêt de se concentrer sur l’effet des promotions, qui avait le plus grand impact sur les ventes et la rentabilité.
+
 
 # 1️⃣ Évolution des ventes par mois
 
 ❌ Aucune saisonnalité marquée—les ventes sont restées stables sur toute l’année.
-
-
-Les périodes de forte et faible activité :
 
 Pour comprendre les tendances des ventes au fil du temps, j'ai analysé les revenus mensuels à l'aide de la requête SQL suivante :
 
@@ -172,35 +178,6 @@ Pour comprendre les tendances des ventes au fil du temps, j'ai analysé les reve
 Le résultat obtenu :
 
 ![image](https://github.com/user-attachments/assets/b21476f5-2fd5-4e9c-9834-0d248e731bcc)
-
-
-    Les revenus mensuels varient entre 51,915.08 (novembre) et 76,034.51 (octobre).
-
-    Le mois d'octobre est le plus performant, tandis que novembre est le moins performant.
-
-    Les revenus restent relativement stables entre 68,000 et 74,000 pour la plupart des mois, à l'exception de novembre.
-
-
-    Pour mieux comprendre ces tendances, j'ai créé un graphique en ligne dans Power BI, montrant l'évolution des revenus mensuels.
-
-Graphique :
-
-
-Analyse de la Visualisation :
-
-    Le graphique confirme les insights de l'analyse SQL :
-
-        Un pic clair est visible en octobre, avec un revenu de 76,034.51.
-
-        Une baisse significative est observée en novembre, avec un revenu de seulement 51,915.08.
-
-    Les mois de mars à août montrent une performance stable, avec des revenus compris entre 64,000 et 74,000.
-
-
-
-
-
-
 
 
 
@@ -220,7 +197,9 @@ Résultat :
 
 Il ne semble pas y avoir de corrélation non plus
 
-📌 Conclusion : Ces facteurs n’ayant pas d’impact significatif, j’ai décidé d’analyser l’effet des promotions sur les ventes et le chiffre d’affaires, ce qui a révélé des insights clés.
+
+
+📌  Ces facteurs n’ayant pas d’impact significatif, j’ai décidé d’analyser l’effet des promotions sur les ventes et le chiffre d’affaires, ce qui a révélé des insights clés.
 
 
 
