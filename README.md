@@ -1,4 +1,4 @@
-# Quel est l’impact des promotions sur les ventes et le chiffre d’affaires d'un site e-commerce ?
+ # Quel est l’impact des promotions sur les ventes et le chiffre d’affaires d'un site e-commerce ?
 
 Introduction du Projet : Quel est l’impact des promotions sur les ventes et le chiffre d’affaires d'un site e-commerce  ?
 Contexte du Projet
@@ -240,7 +240,37 @@ Il ne semble pas y avoir de corrélation non plus
 🚀 Conclusion principale : Supprimer les promotions trop élevées permettrait d’augmenter les revenus.
 
 
+## 📂 Analyse par Catégorie & Recommandations
 
+Mais avant de procéder à une conclusion trop hative, il faudrait vérifier si ce phénomène s'applique à chaque catégorie de produits. En effet, il est possible que les produits electronique puissent profiter pleinement des promotions elevées pour augmenter leur chiffre d'affaires. Retirer hativement ces promotions pourrait impacter cette catégorie de produit.
+
+J'ai donc réalisé un graphique représentant le nombre de commandes (à gauche) et le revenu (à droite) par promotions et par catégories, ainsi chaque manager marketing dans la catégorie peut adapter son pricing & ses promotions dans la gamme de produits correspondants (voir dossier Powerbi pour voir en détail) :
+
+![image](https://github.com/user-attachments/assets/6fe9d6bf-2312-4273-82f4-dca9ea146b38)
+
+
+Voici également un tableau claire et efficace pour accélérer la prise de décision : 
+
+![image](https://github.com/user-attachments/assets/a0f47982-79ed-47fd-bd86-cc5677786b5f)
+
+
+📌 Justification des Recommandations
+
+Les recommandations présentées dans cette analyse sont basées sur une double approche combinant l’étude des données et une logique business éprouvée dans le secteur de l’e-commerce.
+
+
+✔ Les recommandations chiffrées (ex: "limiter les promotions à 15-20 %") proviennent directement des tendances observées dans l’analyse des données. Elles sont justifiables car elles reflètent un lien clair entre le niveau des promotions et l’impact sur les ventes et le chiffre d’affaires.
+
+✔ Les recommandations stratégiques (ex: "privilégier les bundles", "ventes privées") ne relèvent pas du marketing pur, mais d’alternatives aux promotions massives. Ces stratégies sont couramment utilisées en e-commerce pour améliorer la rentabilité sans sacrifier le volume des ventes.
+📌 Preuves que ces stratégies sont courantes en e-commerce
+
+👉 👕 Vêtements : Les promotions augmentent les ventes mais réduisent la rentabilité. Les ventes privées et programmes de fidélisation sont souvent utilisés par des enseignes comme Zalando Privé ou Veepee pour limiter l’impact des promotions sur les marges.
+
+👉 💄 Beauté : Les grandes marques (ex: Sephora, L’Oréal) évitent les grosses réductions qui dévalorisent leur image et préfèrent offrir des échantillons ou des produits en bundle pour stimuler les ventes tout en maintenant une perception premium.
+
+👉 💻 Électronique : Peu de réductions importantes chez Apple ou Samsung, mais des alternatives comme les financements sans frais et les offres groupées (ex: iPhone + AirPods). Ces stratégies augmentent le panier moyen sans réduire drastiquement les prix.
+
+📌 Conclusion : Ces recommandations ne sont pas théoriques mais basées sur une approche data-driven combinée à des pratiques business réelles. Pour aller plus loin, une analyse A/B testing sur les promotions pourrait affiner ces stratégies de manière encore plus précise. 🚀
 
 
 
