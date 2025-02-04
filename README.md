@@ -270,8 +270,10 @@ Les recommandations présentées dans cette analyse sont basées sur une double 
 
 👉 💻 Électronique : Peu de réductions importantes chez Apple ou Samsung, mais des alternatives comme les financements sans frais et les offres groupées (ex: iPhone + AirPods). Ces stratégies augmentent le panier moyen sans réduire drastiquement les prix.
 
-📌 Conclusion : Ces recommandations ne sont pas théoriques mais basées sur une approche data-driven combinée à des pratiques business réelles. Pour aller plus loin, une analyse A/B testing sur les promotions pourrait affiner ces stratégies de manière encore plus précise. 🚀
 
+## 📢 Conclusion
+
+Cette analyse montre que les réductions supérieures à 20 % nuisent au chiffre d’affaires sans augmenter significativement le volume de ventes. Une meilleure stratégie consiste à adapter les promotions par catégorie plutôt que d’appliquer des remises généralisées.
 
 
 
