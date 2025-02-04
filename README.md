@@ -1,13 +1,25 @@
-# Performance E-commerce
+# Quel est l’impact des promotions sur les ventes et le chiffre d’affaires d'un site e-commerce ?
 
-Introduction du Projet : Performance E-Commerce
+Introduction du Projet : Quel est l’impact des promotions sur les ventes et le chiffre d’affaires d'un site e-commerce  ?
 Contexte du Projet
 
-Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles, segmenter les clients, et évaluer l'impact des réductions. Bien que les résultats ne montrent pas d'insights notables, ce projet démontre ma capacité à manipuler des données, et à communiquer mes résultats de manière claire.
+📌 Présentation du Projet
+Dans ce projet, j’analyse comment les promotions et réductions influencent le nombre de commandes, le chiffre d’affaires et le panier moyen d’un site e-commerce.
 
-Ce projet consiste en une analyse légère d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en SQL notamment en analyse de données et en nettoyage de données sur SQL.
+es entreprises e-commerce utilisent souvent des promotions pour booster les ventes, mais cela améliore-t-il vraiment le chiffre d’affaires ?
+Ce projet répond aux questions suivantes :
 
-Lien Kaggle : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
+✅ Faut-il continuer à appliquer des promotions élevées ?
+
+✅ Toutes les catégories de produits réagissent-elles de la même manière aux réductions ?
+
+✅ Quel est le taux de promotion optimal pour maximiser les revenus ?
+
+Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles  et évaluer l'impact des réductions. Ce projet démontre ma capacité à manipuler des données, et à communiquer mes résultats de manière claire.
+
+Ce projet consiste en une analyse légère d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en SQL notamment en analyse de données et en nettoyage de données sur SQL ainsi qu'en visualisation sur des outils comme PowerBI
+
+Lien Kaggle du dataset utilisé : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
 
 Le dataset contient des informations sur les achats des clients, telles que :
 
@@ -122,14 +134,17 @@ Nous en avons fini avec la préparations de données et la gestion de potentiell
 ## Analyser les tendances
 
  Cette section présente les analyses effectuées sur les données nettoyées. Elle met en avant les requêtes SQL utilisées et les insights obtenus.
-
- Commençons par quelques analyses simples afin d'identifier :
-
-
-
  
- 
- ## Les périodes de forte et faible activité :
+📊 Analyse Exploratoire des Données (EDA)
+
+Avant de me concentrer sur l’impact des promotions, j’ai exploré plusieurs facteurs :
+
+# 1️⃣ Évolution des ventes par mois
+
+❌ Aucune saisonnalité marquée—les ventes sont restées stables sur toute l’année.
+
+
+Les périodes de forte et faible activité :
 
 Pour comprendre les tendances des ventes au fil du temps, j'ai analysé les revenus mensuels à l'aide de la requête SQL suivante :
 
@@ -165,7 +180,18 @@ Analyse de la Visualisation :
 
 
 
-## Essayons de voir si il y a une corrélation avec le moyen de paiement utilisé :
+
+
+
+
+
+## 2️⃣ Méthodes de paiement utilisées
+
+❌ Aucune différence notable—toutes les méthodes sont utilisées de manière équivalente.
+
+📌 Conclusion : Ces facteurs n’ayant pas d’impact significatif, j’ai décidé d’analyser l’effet des promotions sur les ventes et le chiffre d’affaires, ce qui a révélé des insights clés.
+
+ Essayons de voir si il y a une corrélation avec le moyen de paiement utilisé :
 
 ![image](https://github.com/user-attachments/assets/3e7a62b4-4b21-4f71-b705-4e731c267433)
 
@@ -175,6 +201,43 @@ Résultat :
 
 Il ne semble pas y avoir de corrélation non plus
 
+📌 Conclusion : Ces facteurs n’ayant pas d’impact significatif, j’ai décidé d’analyser l’effet des promotions sur les ventes et le chiffre d’affaires, ce qui a révélé des insights clés.
+
+
+
+## 3️⃣ 🎯 Analyse Finale : L'Impact des Promotions sur les Ventes et le Chiffre d’Affaires
+
+1️⃣ Plus la promotion est élevée, moins il y a de commandes
+
+📉 Le nombre de commandes diminue progressivement lorsque les promotions dépassent 20 %.
+
+![image](https://github.com/user-attachments/assets/3d2aca5a-09a5-48d9-8b17-af3103c13b63)
+
+
+🔎 Explications possibles :
+
+- Les clients perçoivent peut-être les produits trop remisés comme étant de moindre qualité.
+
+
+  
+
+2️⃣ Plus la promotion est élevée, plus le panier moyen baisse :
+
+![image](https://github.com/user-attachments/assets/f85a7f4a-6570-4284-8852-dd9a126296bc)
+
+
+🛒 Lorsque les remises augmentent, les clients dépensent moins par commande, ce qui peut signifier :
+
+- Que les produits avec une haute promotion n'ont pas un prix initial plsu elevé que ceux avec une promotion basse. Cela impacte le panier moyen.
+    
+
+3️⃣ Plus la promotion est élevée, plus le chiffre d’affaires diminue
+
+💰 Une réduction supérieure à 20 % entraîne une baisse significative du chiffre d’affaires total. Les produits à hautes promotions sont moins cher et sont moins achetés par les clients. Ce phénomène entraine une baisse considérable du chiffre d'affaires pour les produits à haute promotion.
+
+![image](https://github.com/user-attachments/assets/338223ba-0038-45e6-a43b-b66a948cc1e4)
+
+🚀 Conclusion principale : Supprimer les promotions trop élevées permettrait d’augmenter les revenus.
 
 
 
