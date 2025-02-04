@@ -4,22 +4,24 @@ Introduction du Projet : Quel est l’impact des promotions sur les ventes et le
 Contexte du Projet
 
 📌 Présentation du Projet
-Dans ce projet, j’analyse comment les promotions et réductions influencent le nombre de commandes, le chiffre d’affaires et le panier moyen d’un site e-commerce.
 
-es entreprises e-commerce utilisent souvent des promotions pour booster les ventes, mais cela améliore-t-il vraiment le chiffre d’affaires ?
-Ce projet répond aux questions suivantes :
+Les entreprises e-commerce utilisent souvent des promotions pour stimuler les ventes, mais ces réductions permettent-elles réellement d’augmenter le chiffre d’affaires ou au contraire réduisent-elles la rentabilité ?
 
-✅ Faut-il continuer à appliquer des promotions élevées ?
+Ce projet analyse l’impact des promotions sur le nombre de commandes, le panier moyen et le chiffre d’affaires total afin d’aider à optimiser les stratégies de prix.
 
-✅ Toutes les catégories de produits réagissent-elles de la même manière aux réductions ?
+🔎 Problématiques abordées :
 
-✅ Quel est le taux de promotion optimal pour maximiser les revenus ?
+✅ Les promotions permettent-elles d’augmenter durablement les ventes ?
 
-Le dataset utilisé dans ce projet est synthétique et ne contient pas de variations significatives. Malgré cela, j'ai appliqué des techniques d'analyse de données pour explorer les tendances potentielles  et évaluer l'impact des réductions. Ce projet démontre ma capacité à manipuler des données, et à communiquer mes résultats de manière claire.
+✅ À partir de quel taux de réduction les revenus commencent-ils à baisser ?
 
-Ce projet consiste en une analyse légère d'un jeu de données e-commerce, disponible sur Kaggle. L'objectif principal est de démontrer mes compétences en SQL notamment en analyse de données et en nettoyage de données sur SQL ainsi qu'en visualisation sur des outils comme PowerBI
+✅ Toutes les catégories de produits réagissent-elles de la même manière aux promotions ?
 
-Lien Kaggle du dataset utilisé : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
+🛠 Contexte et Dataset
+
+Ce projet est basé sur un jeu de données e-commerce disponible sur Kaggle : https://www.kaggle.com/datasets/steve1215rogg/e-commerce-dataset
+
+Bien que ce dataset soit synthétique, il permet d’appliquer des techniques d’analyse de données pour détecter des tendances et proposer des recommandations concrètes pour optimiser les promotions. L’objectif de ce projet est démontrer mes compétences en SQL pour l’analyse et le nettoyage des données, ainsi qu’en visualisation avec Power BI.
 
 Le dataset contient des informations sur les achats des clients, telles que :
 
@@ -39,7 +41,8 @@ Le dataset contient des informations sur les achats des clients, telles que :
 
     Purchase_Date : Date d'achat.
 
-Objectifs du Projet
+
+🎯 Objectifs du Projet
 
     Nettoyer et préparer les données : Identifier et gérer les valeurs manquantes, les doublons, et les incohérences.
 
@@ -49,23 +52,14 @@ Objectifs du Projet
 
     Fournir des recommandations : Proposer des actions concrètes pour améliorer les performances de l'entreprise.
 
-Compétences Déployées
 
-    SQL : Pour interroger la base de données, nettoyer les données, et extraire des insights.
-
-    Power BI : Pour créer des visualisations interactives et des tableaux de bord.
-
-    Excel : Pour des analyses complémentaires et des calculs simples.
-
-    Communication : Pour présenter les résultats de manière claire et convaincante.
-
-Étapes du Projet
+🔎 Étapes du Projet
 
     Nettoyage des Données :
 
         Suppression des doublons et des valeurs manquantes.
 
-        Vérification de la cohérence des données (ex : prix négatifs, dates invalides).
+        Vérification de la cohérence des données (ex : prix négatifs, dates invalides, incohérences).
 
     Analyse Exploratoire :
 
@@ -89,34 +83,59 @@ Compétences Déployées
 
         Suggestions pour améliorer l'inventaire en fonction des performances des produits.
 
+🛠 Compétences Déployées
+
+✔ SQL → Extraction, nettoyage et analyse des données.
+
+✔ Power BI → Visualisation et création de dashboards interactifs.
+
+✔ Excel → Analyses complémentaires et calculs statistiques.
+
+✔ Business Analysis → Formulation de recommandations basées sur les données.
+
+✔ Communication → Présentation claire et synthétique des résultats.
 
 
+## 🛠 Nettoyage des Données et mise en place 
 
-## Nettoyage des Données et mise en place 
+- 1️⃣ Formatage des Dates
 
-- Format des Dates
-     
-Le nettoyage des données est une étape essentielle pour assurer la qualité et la fiabilité des analyses. Cette section détaille les problèmes rencontrés et les solutions mises en œuvre pour les résoudre.
+📌 Problème : Les dates étaient au format '12/11/2024', ce qui peut poser des problèmes d’analyse et de tri dans SQL.
+✅ Solution : Conversion des dates au format YYYY-MM-DD ('2024-12-11'), standard pour les bases de données SQL.
 
-Lors de l'examen initial des données, j'ai constaté que les dates n'étaient pas dans le format approprié pour une utilisation optimale dans SQL. Les dates étaient initialement au format '12/11/2024', ce qui n'est pas idéal pour les requêtes SQL. Pour remédier à cela, j'ai converti les dates au format '2024-12-11', qui est plus adapté aux opérations SQL.
+🔹 Avant : '12/11/2024'
 
-Avant : '12/11/2024'
-Après : '2024-12-11'
+🔹 Après : '2024-12-11'
 
  ![image](https://github.com/user-attachments/assets/5e124cfb-82a8-44d6-9b0c-553c3aa820ef)
 
-- Vérification des Valeurs Manquantes
 
-La seconde étape du nettoyage a consisté à vérifier la présence de valeurs manquantes dans les colonnes critiques. Cette vérification est cruciale pour éviter des analyses biaisées ou incomplètes.
+- 2️⃣ Vérification des Valeurs Manquantes
+
+📌 Problème : Les valeurs manquantes peuvent fausser les analyses et entraîner des erreurs dans les calculs.
+✅ Solution : Identification des colonnes critiques (Category, Price, Discount, Final_Price) et gestion des valeurs manquantes selon leur impact (suppression ou imputation).
 
 ![image](https://github.com/user-attachments/assets/7b34b816-c17c-400d-876f-751aaaaf4316)
 
 
-- Détection et Suppression des Doublons
+3️⃣ Détection et Suppression des Doublons
 
-Ensuite, j'ai procédé à la détection des éventuelles lignes en double. La présence de doublons peut fausser les résultats des analyses, il est donc essentiel de les identifier et de les supprimer.
+📌 Problème : La présence de lignes en double peut gonfler artificiellement le volume des ventes et biaiser les résultats.
+✅ Solution : Suppression des doublons en se basant sur User_ID, Product_ID, Purchase_Date pour ne conserver que les achats uniques.
 
 ![image](https://github.com/user-attachments/assets/ac7853d6-0a07-4e88-99e1-e6340a37c3ab)
+
+
+
+4️⃣ Renommage des Colonnes pour plus de Clarté
+
+Pour simplifier l’analyse, certaines colonnes ont été renommées :
+
+   Final_Price(Rs.) → Final_Price
+   Discount (%) → Discount
+   Price (Rs.) → Price
+
+📌 Pourquoi ? Ces modifications permettent d’éviter toute ambiguïté et facilitent l’écriture des requêtes SQL.
 
 Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. J'en ai également profité pour renommer certaines colonnes afin de faciliter mon travail par la suite (eg. colonne price et colonne discount)
 
