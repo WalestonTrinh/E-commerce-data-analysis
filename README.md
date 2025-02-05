@@ -139,7 +139,8 @@ Pour simplifier l’analyse, certaines colonnes ont été renommées :
 
 📌 Pourquoi ? Ces modifications permettent d’éviter toute ambiguïté et facilitent l’écriture des requêtes SQL.
 
-Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. J'en ai également profité pour renommer certaines colonnes afin de faciliter mon travail par la suite (eg. colonne price et colonne discount)
+
+Nous en avons fini avec la préparations de données et la gestion de potentielles anomalies de données. 
 
 
 
