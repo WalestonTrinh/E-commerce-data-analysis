@@ -225,7 +225,7 @@ Résultat :
 
 🛒 Lorsque les remises augmentent, les clients dépensent moins par commande, ce qui peut signifier :
 
-- Que les produits avec une haute promotion n'ont pas un prix initial plsu elevé que ceux avec une promotion basse. Cela impacte le panier moyen.
+- Que les produits avec une haute promotion ont pas un prix initial similaire à ceux avec une promotion basse. Cela impacte le panier moyen.
     
 
 3️⃣ Plus la promotion est élevée, plus le chiffre d’affaires diminue
