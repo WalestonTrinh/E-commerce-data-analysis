@@ -169,7 +169,7 @@ Cette analyse a permis de valider l’intérêt de se concentrer sur l’effet d
 
 # 1️⃣ Évolution des ventes par mois
 
-❌ Aucune saisonnalité marquée—les ventes sont restées stables sur toute l’année.
+
 
 Pour comprendre les tendances des ventes au fil du temps, j'ai analysé les revenus mensuels à l'aide de la requête SQL suivante :
 
@@ -179,13 +179,11 @@ Le résultat obtenu :
 
 ![image](https://github.com/user-attachments/assets/b21476f5-2fd5-4e9c-9834-0d248e731bcc)
 
+❌ Aucune saisonnalité marquée—les ventes sont restées stables sur toute l’année.
 
 
 ## 2️⃣ Méthodes de paiement utilisées
 
-❌ Aucune différence notable—toutes les méthodes sont utilisées de manière équivalente.
-
-📌 Conclusion : Ces facteurs n’ayant pas d’impact significatif, j’ai décidé d’analyser l’effet des promotions sur les ventes et le chiffre d’affaires, ce qui a révélé des insights clés.
 
  Essayons de voir si il y a une corrélation avec le moyen de paiement utilisé :
 
@@ -195,7 +193,7 @@ Résultat :
 
 ![image](https://github.com/user-attachments/assets/6d124b1d-22b1-42bb-9182-ea4872449504)
 
-Il ne semble pas y avoir de corrélation non plus
+❌ Aucune différence notable—toutes les méthodes sont utilisées de manière équivalente.
 
 
 
